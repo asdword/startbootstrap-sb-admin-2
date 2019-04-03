@@ -19,3 +19,8 @@
     display: none;
   }
 }
+
+// rtl ver
+.show[aria-labelledby="dropdownMenuLink"]{
+  right: auto;
+}

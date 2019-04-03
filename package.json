@@ -32,11 +32,12 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.8.1",
-        "bootstrap": "4.3.1",
+        "bootstrap-v4-rtl": "^4.3.1-0",
         "chart.js": "2.8.0",
         "datatables.net-bs4": "1.10.19",
         "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1"
+        "jquery.easing": "^1.4.1",
+        "samim-font": "^1.0.2"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",

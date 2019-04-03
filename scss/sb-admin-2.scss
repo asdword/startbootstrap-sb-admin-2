@@ -2,7 +2,10 @@
 @import "variables.scss";
 
 // Import Bootstrap
-@import "../vendor/bootstrap/scss/bootstrap.scss";
+@import "../vendor/bootstrap/scss/bootstrap-rtl.scss";
+//Font Samim
+@import "../vendor/samim-font/dist/font-face.css";
+// @import "../node_modules/bootstrap-v4-rtl/scss/bootstrap-rtl.scss";
 
 // Import Custom SB Admin 2 Mixins and Components
 @import "mixins.scss";

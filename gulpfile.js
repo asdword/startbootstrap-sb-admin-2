@@ -50,10 +50,10 @@ function clean() {
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
   // Bootstrap JS
-  var bootstrapJS = gulp.src('./node_modules/bootstrap/dist/js/*')
+  var bootstrapJS = gulp.src('./node_modules/bootstrap-v4-rtl/dist/js/*')
     .pipe(gulp.dest('./vendor/bootstrap/js'));
   // Bootstrap SCSS
-  var bootstrapSCSS = gulp.src('./node_modules/bootstrap/scss/**/*')
+  var bootstrapSCSS = gulp.src('./node_modules/bootstrap-v4-rtl/scss/**/*')
     .pipe(gulp.dest('./vendor/bootstrap/scss'));
   // ChartJS
   var chartJS = gulp.src('./node_modules/chart.js/dist/*.js')
@@ -68,6 +68,10 @@ function modules() {
   // Font Awesome
   var fontAwesome = gulp.src('./node_modules/@fortawesome/**/*')
     .pipe(gulp.dest('./vendor'));
+//Font Samim 
+  var samim = gulp.src('./node_modules/samim-font/**/*')
+    .pipe(gulp.dest('./vendor/samim-font'));
+
   // jQuery Easing
   var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
     .pipe(gulp.dest('./vendor/jquery-easing'));
@@ -77,7 +81,7 @@ function modules() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'));
-  return merge(bootstrapJS, bootstrapSCSS, chartJS, dataTables, fontAwesome, jquery, jqueryEasing);
+  return merge(bootstrapJS, bootstrapSCSS, chartJS, dataTables, fontAwesome,samim, jquery, jqueryEasing);
 }
 
 // CSS task

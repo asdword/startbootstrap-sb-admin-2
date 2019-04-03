@@ -24,7 +24,7 @@
     // Accordion
     .collapse {
       position: absolute;
-      left: calc(#{$sidebar-collapsed-width} + #{$grid-gutter-width} / 2);
+      right: calc(#{$sidebar-collapsed-width} + #{$grid-gutter-width} / 2);
       z-index: 1;
       top: 2px;
       // Grow In Animation
@@ -84,7 +84,7 @@
     cursor: pointer;
     &::after {
       font-weight: 900;
-      content: '\f104';
+      content: '\f105';
       font-family: 'Font Awesome 5 Free';
       margin-right: 0.1rem;
     }
@@ -99,7 +99,7 @@
     width: 0 !important;
     overflow: hidden;
     #sidebarToggle::after {
-      content: '\f105';
+      content: '\f104';
       font-family: 'Font Awesome 5 Free';
       margin-left: 0.25rem;
     }
@@ -141,7 +141,7 @@
       // Accordion
       .collapse {
         position: relative;
-        left: 0;
+        right: 0;
         z-index: 1;
         top: 0;
         animation: none;
@@ -161,7 +161,7 @@
       .nav-link {
         display: block;
         width: 100%;
-        text-align: left;
+        text-align: right;
         padding: 1rem;
         width: $sidebar-base-width;
         i {
@@ -177,7 +177,7 @@
           &::after {
             width: 1rem;
             text-align: center;
-            float: right;
+            float: left;
             vertical-align: 0;
             border: 0;
             font-weight: 900;
@@ -185,7 +185,7 @@
             font-family: 'Font Awesome 5 Free';
           }
           &.collapsed::after {
-            content: '\f105';
+            content: '\f104';
           }
         }
       }
@@ -199,7 +199,7 @@
       }
     }
     .sidebar-heading {
-      text-align: left;
+      text-align: right;
     }
     &.toggled {
       overflow: visible;
@@ -208,7 +208,7 @@
         // Accordion
         .collapse {
           position: absolute;
-          left: calc(#{$sidebar-collapsed-width} + #{$grid-gutter-width} / 2);
+          right: calc(#{$sidebar-collapsed-width} + #{$grid-gutter-width} / 2);
           z-index: 1;
           top: 2px;
           // Grow In Animation for Toggled State
@@ -370,3 +370,13 @@
     }
   }
 }
+// rtl ver
+.navbar-nav {
+  padding-right: 0;
+}
+.h-a{
+  height: auto;
+}
+.rtl .navbar-nav .nav-item+.nav-item, [dir=rtl] .navbar-nav .nav-item+.nav-item {
+   margin-right: inherit;
+  margin-left: 1rem;}

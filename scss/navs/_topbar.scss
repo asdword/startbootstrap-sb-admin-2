@@ -96,7 +96,8 @@
       position: relative;
       .dropdown-menu {
         width: auto;
-        right: 0;
+        right: auto;
+        left: 0;
       }
     }
     .dropdown-list {

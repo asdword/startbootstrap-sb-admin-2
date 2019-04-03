@@ -1,0 +1,52 @@
+{
+  "_from": "samim-font",
+  "_id": "samim-font@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-D9xEKfZO2uWgY6Lc9z7eIY13aZo=",
+  "_location": "/samim-font",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "samim-font",
+    "name": "samim-font",
+    "escapedName": "samim-font",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/samim-font/-/samim-font-1.0.2.tgz",
+  "_shasum": "0fdc4429f64edae5a063a2dcf73ede218d77699a",
+  "_spec": "samim-font",
+  "_where": "C:\\WS\\Web Apps\\WebThemes\\startbootstrap-sb-admin-2",
+  "author": {
+    "name": "Yahya SayadArbabi",
+    "email": "yahya.arbabi@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rastikerdar/samim-font/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A Persian (Farsi) Font - فونت (قلم) فارسی صمیم ",
+  "homepage": "https://github.com/rastikerdar/samim-font#readme",
+  "keywords": [
+    "font",
+    "farsi"
+  ],
+  "license": "SIL OPEN FONT LICENSE Version 1.1",
+  "main": "index.js",
+  "name": "samim-font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastikerdar/samim-font.git"
+  },
+  "scripts": {
+    "test": "echo \"Take a look at: http://rastikerdar.github.io/samim-font/\""
+  },
+  "version": "1.0.2"
+}
