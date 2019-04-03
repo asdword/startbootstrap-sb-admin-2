@@ -4,7 +4,11 @@
 
 For the legacy Bootstrap 3 version of this theme, you can view the [last stable release](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/releases/tag/v3.3.7%2B1) of SB Admin 2 for Bootstrap 3.
 
-## Preview
+## Preview RTL Version
+
+[![SB Admin 2 Preview](https://raw.githubusercontent.com/asdword/startbootstrap-sb-admin-2/master/startbootstrap-sb-admin-2.jpg)](https://github.com/asdword/startbootstrap-sb-admin-2)
+
+## Preview LTR Version
 
 [![SB Admin 2 Preview](https://startbootstrap.com/assets/img/screenshots/themes/sb-admin-2.png)](https://blackrockdigital.github.io/startbootstrap-sb-admin-2/)
 
@@ -41,9 +45,6 @@ After installation, run `npm install` and then run `npm start` which will open u
 
 You must have npm and Gulp installed globally on your machine in order to use these features. This theme was built using node v11.6.0 and the Gulp CLI v2.0.1. If Gulp is not running properly after running `npm install`, you may need to update node and/or the Gulp CLI locally.
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/).
 
 ## About
 
@@ -57,6 +58,8 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 -   <http://davidmiller.io>
 -   <https://twitter.com/davidmillerskt>
 -   <https://github.com/davidtmiller>
+
+RTL edition created by **[Mohammad yusuf](https://github.com/asdword)**.
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
